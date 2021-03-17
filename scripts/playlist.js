@@ -1,822 +1,103 @@
-﻿trackList = [
-	{
-		name:"Jay Chou 周杰倫 [夜的第七章 Chapter Seven] Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫 [夜的第七章 Chapter Seven] Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫 [退後 A Step Back] Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫 [退後 A Step Back] Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【一路向北 All the Way North】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【一路向北 All the Way North】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【七里香 Qi-Li-Xiang】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【七里香 Qi-Li-Xiang】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【三年二班 Class 3-2】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【三年二班 Class 3-2】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【亂舞春秋 Chaotic Dance】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【亂舞春秋 Chaotic Dance】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【千里之外 Far Away】-Official Music Video(ft.費玉清)",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【千里之外 Far Away】-Official Music Video(ft.費玉清).mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【印地安老斑鳩 Ancient Indian Turtledove】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【印地安老斑鳩 Ancient Indian Turtledove】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【反方向的鐘 Counter-clockwise Clock】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【反方向的鐘 Counter-clockwise Clock】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【同一種調調 Same Tone】 -Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【同一種調調 Same Tone】 -Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【周大俠 Master Chou】-Official Music Video(電影「功夫灌籃」主題曲)",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【周大俠 Master Chou】-Official Music Video(電影「功夫灌籃」主題曲).mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【哪裡都是你 You are everywhere】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【哪裡都是你 You are everywhere】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【四面楚歌 Surrounded】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【四面楚歌 Surrounded】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【園遊會 Fun Fair】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【園遊會 Fun Fair】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【外婆 Grandma】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【外婆 Grandma】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【夜曲 Ye Qu】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【夜曲 Ye Qu】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【天台的月光 Moonlight on Rooftop】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【天台的月光 Moonlight on Rooftop】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【天地一鬥 Spark 】-Official Music Video(ft. Kobe Bryant)",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【天地一鬥 Spark 】-Official Music Video(ft. Kobe Bryant).mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【她的睫毛 Her Eyelashes】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【她的睫毛 Her Eyelashes】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【娘子 Wife】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【娘子 Wife】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【完美主義 Perfectionism】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【完美主義 Perfectionism】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【彩虹 Rainbow】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【彩虹 Rainbow】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【心雨 Rainy Mood】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【心雨 Rainy Mood】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【懦夫 Coward】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【懦夫 Coward】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【我不配 Not Good Enough For You】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【我不配 Not Good Enough For You】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【我的地盤 My Territory】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【我的地盤 My Territory】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【手語 Sign Language】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【手語 Sign Language】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【扯 Pull Apart】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【扯 Pull Apart】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【星晴 Starry Mood】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【星晴 Starry Mood】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【時光機 Time Machine】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【時光機 Time Machine】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【最長的電影 The Longest Movie】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【最長的電影 The Longest Movie】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【本草綱目Chinese Herbal Manual】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【本草綱目Chinese Herbal Manual】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【東風破 Dong-Feng-Po】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【東風破 Dong-Feng-Po】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【梯田 Terrace Field】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【梯田 Terrace Field】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【楓Maple Leaf 】Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【楓Maple Leaf 】Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【止戰之殤 Wounds of War】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【止戰之殤 Wounds of War】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【流浪詩人 Drifting Poet】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【流浪詩人 Drifting Poet】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【浪漫手機 Romantic Cellphone】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【浪漫手機 Romantic Cellphone】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【無雙 Incomparable】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【無雙 Incomparable】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【珊瑚海 Coral Sea】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【珊瑚海 Coral Sea】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【甜甜的 Sweet】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【甜甜的 Sweet】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【白色風車 White Windmill】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【白色風車 White Windmill】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【稻香 Rice Field】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【稻香 Rice Field】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【紅模仿 Moulin Rouge】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【紅模仿 Moulin Rouge】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【給我一首歌的時間 Give me the time of a song】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【給我一首歌的時間 Give me the time of a song】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【聽媽媽的話 Listen to Mom】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【聽媽媽的話 Listen to Mom】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【菊花台 Chrysanthemum Terrace】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【菊花台 Chrysanthemum Terrace】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【蒲公英的約定 A Dandelion's Promise】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【蒲公英的約定 A Dandelion's Promise】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【藉口 Excuse】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【藉口 Excuse】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【藍色風暴 Blue Storm】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【藍色風暴 Blue Storm】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【蘭亭序 Lan-Ting-Xu】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【蘭亭序 Lan-Ting-Xu】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【說好的幸福呢 The Promised Love】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【說好的幸福呢 The Promised Love】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【迷迭香 Rosemary】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【迷迭香 Rosemary】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【陽光宅男 Sunshine Nerd】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【陽光宅男 Sunshine Nerd】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【霍元甲 Fearless】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【霍元甲 Fearless】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【青花瓷 Blue and White Porcelain】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【青花瓷 Blue and White Porcelain】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【髮如雪 Hair Like Snow】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【髮如雪 Hair Like Snow】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【鬥牛 Basketball Match】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【鬥牛 Basketball Match】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【魔術先生Magician】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【魔術先生Magician】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【麥芽糖 Malt Sugar】Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【麥芽糖 Malt Sugar】Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【黃金甲 Golden Armor】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【黃金甲 Golden Armor】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【黑色幽默 Black Humor】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【黑色幽默 Black Humor】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【黑色毛衣 Black Sweater】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【黑色毛衣 Black Sweater】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou 周杰倫【龍戰騎士 Dragon Rider】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou 周杰倫【龍戰騎士 Dragon Rider】-Official Music Video.mp3"
-	},
-	{
-		name:"Jay Chou周杰倫【晴天 Sunny Day】-Official Music Video",
-		artist:"周杰倫",
-		src:"music/Jay Chou周杰倫【晴天 Sunny Day】-Official Music Video.mp3"
-	},
-	{
-		name:"周杰倫 - 斷了的弦 KTV [HD]",
-		artist:"周杰倫",
-		src:"music/周杰倫 - 斷了的弦 KTV [HD].mp3"
-	},
-	{
-		name:"周杰倫 - 英雄（2017英雄聯盟世界大賽 混音版）Jay Chou - Hero (Worlds Remix)  Worlds 2017 - League of Legends",
-		artist:"周杰倫",
-		src:"music/周杰倫 - 英雄（2017英雄聯盟世界大賽 混音版）Jay Chou - Hero (Worlds Remix)  Worlds 2017 - League of Legends.mp3"
-	},
-	{
-		name:"周杰倫 - 軌跡 HD",
-		artist:"周杰倫",
-		src:"music/周杰倫 - 軌跡 HD.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou (feat. 林書豪Jeremy Lin)【土耳其冰淇淋 Tu Er Qi Ice Cream】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou (feat. 林書豪Jeremy Lin)【土耳其冰淇淋 Tu Er Qi Ice Cream】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou (with 楊瑞代)【等你下課 Waiting For You】歌詞版MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou (with 楊瑞代)【等你下課 Waiting For You】歌詞版MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou (特別演出 派偉俊)【告白氣球 Love Confession】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou (特別演出 派偉俊)【告白氣球 Love Confession】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou 【Now You See Me】Official MV (120s)",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou 【Now You See Me】Official MV (120s).mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【 說走就走 Let's Go】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【 說走就走 Let's Go】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【Mine Mine】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【Mine Mine】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【一口氣全唸對 One Breath】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【一口氣全唸對 One Breath】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【一點點 A Little Bit】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【一點點 A Little Bit】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【上海 一九四三 Shanghai 1943】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【上海 一九四三 Shanghai 1943】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【不愛我就拉倒 If You Don't Love Me, It's Fine】Official MV 發燒影片華語地區蟬聯第一 美國直衝前二",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【不愛我就拉倒 If You Don't Love Me, It's Fine】Official MV 發燒影片華語地區蟬聯第一 美國直衝前二.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【世界未末日 Not the End of the World】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【世界未末日 Not the End of the World】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【世界末日 End of the World】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【世界末日 End of the World】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【你好嗎 How Are You】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【你好嗎 How Are You】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【你比從前快樂 You Are Happier Than Before】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【你比從前快樂 You Are Happier Than Before】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【傻笑 Smile】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【傻笑 Smile】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【免費教學錄影帶 Free Tutorial Video】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【免費教學錄影帶 Free Tutorial Video】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【公主病 Princess Syndrome】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【公主病 Princess Syndrome】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【公公偏頭痛 Eunuch with a Headache】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【公公偏頭痛 Eunuch with a Headache】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【分裂 Split】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【分裂 Split】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【前世情人 Lover From Previous Life】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【前世情人 Lover From Previous Life】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【半島鐵盒 Peninsula Ironbox】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【半島鐵盒 Peninsula Ironbox】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【半獸人 Half-beast Human】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【半獸人 Half-beast Human】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【嘻哈空姐 Hip-hop Flight Attendant】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【嘻哈空姐 Hip-hop Flight Attendant】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【四季列車 Four Seasons Train】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【四季列車 Four Seasons Train】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【回到過去 Back to the Past】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【回到過去 Back to the Past】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【夢想啟動 Dream】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【夢想啟動 Dream】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【大笨鐘 Big Ben】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【大笨鐘 Big Ben】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【天涯過客 Passer-by】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【天涯過客 Passer-by】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【好久不見 Long Time No See】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【好久不見 Long Time No See】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【威廉古堡 William Castle】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【威廉古堡 William Castle】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【安靜 Silence】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【安靜 Silence】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【對不起 Sorry】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【對不起 Sorry】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【床邊故事 Bedtime Stories】Official MV 完整版",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【床邊故事 Bedtime Stories】Official MV 完整版.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【忍者 Ninja】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【忍者 Ninja】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【怎麼了 What's Wrong】Official MV (ft. Cindy袁詠琳)",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【怎麼了 What's Wrong】Official MV (ft. Cindy袁詠琳).mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【愛你沒差 Love you, no matter what】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【愛你沒差 Love you, no matter what】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【愛在西元前 Love before BC】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【愛在西元前 Love before BC】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【愛情廢柴 Failure at love】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【愛情廢柴 Failure at love】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【愛的飛行日記 Diary of Love】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【愛的飛行日記 Diary of Love】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【我落淚 情緒零碎 Tears of Scattered Emotion】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【我落淚 情緒零碎 Tears of Scattered Emotion】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【我要夏天 I Want Summer】Official MV (ft. Gary楊瑞代)",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【我要夏天 I Want Summer】Official MV (ft. Gary楊瑞代).mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【手寫的從前 Handwritten Past】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【手寫的從前 Handwritten Past】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【明明就 Ming Ming Jiu】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【明明就 Ming Ming Jiu】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【暗號 Secret Sign】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【暗號 Secret Sign】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【最後的戰役 The Final Battle】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【最後的戰役 The Final Battle】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【比較大的大提琴 A Larger Cello】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【比較大的大提琴 A Larger Cello】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【水手怕水 Sailor Afraid of Water】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【水手怕水 Sailor Afraid of Water】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【火車叨位去 The Train's Destination】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【火車叨位去 The Train's Destination】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【烏克麗麗 Ukulele】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【烏克麗麗 Ukulele】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【煙花易冷 Fade Away】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【煙花易冷 Fade Away】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【爸 我回來了 Dad, I'm home】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【爸 我回來了 Dad, I'm home】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【爺爺泡的茶 Grandpa's Tea】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【爺爺泡的茶 Grandpa's Tea】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【琴傷 Piano of Sorrow】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【琴傷 Piano of Sorrow】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【療傷燒肉粽 Healing Rice Dumpling】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【療傷燒肉粽 Healing Rice Dumpling】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【皮影戲 Shadow Play】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【皮影戲 Shadow Play】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【竊愛 Stolen Love】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【竊愛 Stolen Love】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【算什麼男人 What Kind of Man】Official MV (ft. 林依晨)",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【算什麼男人 What Kind of Man】Official MV (ft. 林依晨).mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【簡單愛 Simple Love】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【簡單愛 Simple Love】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【米蘭小鐵匠 Little Blacksmith in Milan】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【米蘭小鐵匠 Little Blacksmith in Milan】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【紅塵客棧 Hong-Chen-Ke-Zhan】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【紅塵客棧 Hong-Chen-Ke-Zhan】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【美人魚 Mermaid】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【美人魚 Mermaid】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【聽爸爸的話 Listen to Dad】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【聽爸爸的話 Listen to Dad】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【聽見下雨的聲音 Rhythm of the Rain】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【聽見下雨的聲音 Rhythm of the Rain】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【自導自演 Self-directed Act】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【自導自演 Self-directed Act】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【蝸牛 Snail】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【蝸牛 Snail】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【說了再見 Say Goodbye】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【說了再見 Say Goodbye】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【超人不會飛 Superman Can't Fly】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【超人不會飛 Superman Can't Fly】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【超跑女神 Sports Car Model】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【超跑女神 Sports Car Model】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【跨時代 The Era】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【跨時代 The Era】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【迷魂曲 Enchanting Melody】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【迷魂曲 Enchanting Melody】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【開不了口 I Find It Hard To Say】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【開不了口 I Find It Hard To Say】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【陽明山 Yang-Ming Mountain】Official MV (ft. Henry Link)",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【陽明山 Yang-Ming Mountain】Official MV (ft. Henry Link).mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【雙截棍 Nunchucks】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【雙截棍 Nunchucks】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【雨下一整晚 Rain All Night】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【雨下一整晚 Rain All Night】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【鞋子特大號 Extra Large Shoes】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【鞋子特大號 Extra Large Shoes】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【飄移 Drifting】(頭文字D版)-Official Music Video",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【飄移 Drifting】(頭文字D版)-Official Music Video.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【驚嘆號 Exclamation Point】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【驚嘆號 Exclamation Point】Official MV.mp3"
-	},
-	{
-		name:"周杰倫 Jay Chou【龍拳 Dragon Fist】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫 Jay Chou【龍拳 Dragon Fist】Official MV.mp3"
-	},
-	{
-		name:"周杰倫Jay Chou X aMEI【不該 Shouldn't Be】Official MV",
-		artist:"周杰倫",
-		src:"music/周杰倫Jay Chou X aMEI【不該 Shouldn't Be】Official MV.mp3"
-	},
-	{
-		name:"周杰倫【以父之名 官方完整MV】Jay Chou In The Name of Father MV (Yi-Fu-Zhi-Ming)",
-		artist:"周杰倫",
-		src:"music/周杰倫【以父之名 官方完整MV】Jay Chou In The Name of Father MV (Yi-Fu-Zhi-Ming).mp3"
-	},
-	{
-		name:"周杰倫【伊斯坦堡 官方完整MV】Jay Chou Istanbul MV (Yi-Si-Tan-Bao)",
-		artist:"周杰倫",
-		src:"music/周杰倫【伊斯坦堡 官方完整MV】Jay Chou Istanbul MV (Yi-Si-Tan-Bao).mp3"
-	},
-	{
-		name:"周杰倫【可愛女人 官方完整MV】Jay Chou Adorable Lady MV (feat.徐若瑄Vivian) (Ke-Ai-Nu-Ren)",
-		artist:"周杰倫",
-		src:"music/周杰倫【可愛女人 官方完整MV】Jay Chou Adorable Lady MV (feat.徐若瑄Vivian) (Ke-Ai-Nu-Ren).mp3"
-	},
-	{
-		name:"周杰倫【喬克叔叔 官方完整MV】Jay Chou Uncle Joker MV (Qiao-Ke-Shu-Shu)",
-		artist:"周杰倫",
-		src:"music/周杰倫【喬克叔叔 官方完整MV】Jay Chou Uncle Joker MV (Qiao-Ke-Shu-Shu).mp3"
-	},
-	{
-		name:"周杰倫【困獸之鬥 官方完整MV】Jay Chou Struggle MV (Kun-Shou-Zhi-Dou)",
-		artist:"周杰倫",
-		src:"music/周杰倫【困獸之鬥 官方完整MV】Jay Chou Struggle MV (Kun-Shou-Zhi-Dou).mp3"
-	},
-	{
-		name:"周杰倫【妳聽得到 官方完整MV】Jay Chou You Hear Me MV (Ni-Ting-De-Dao)",
-		artist:"周杰倫",
-		src:"music/周杰倫【妳聽得到 官方完整MV】Jay Chou You Hear Me MV (Ni-Ting-De-Dao).mp3"
-	},
-	{
-		name:"周杰倫【將軍 官方完整MV】Jay Chou General MV (Jiang-Jun)",
-		artist:"周杰倫",
-		src:"music/周杰倫【將軍 官方完整MV】Jay Chou General MV (Jiang-Jun).mp3"
-	},
-	{
-		name:"周杰倫【愛情懸崖 官方完整MV】Jay Chou Cliff MV (Ai-Qing-Xuan-Ya)",
-		artist:"周杰倫",
-		src:"music/周杰倫【愛情懸崖 官方完整MV】Jay Chou Cliff MV (Ai-Qing-Xuan-Ya).mp3"
-	},
-	{
-		name:"周杰倫【擱淺 官方完整MV】Jay Chou Step Aside MV (Ge-Qian)",
-		artist:"周杰倫",
-		src:"music/周杰倫【擱淺 官方完整MV】Jay Chou Step Aside MV (Ge-Qian).mp3"
-	},
-	{
-		name:"周杰倫【牛仔很忙 官方完整MV】Jay Chou Cowboy On The Run MV (Niu-Zi-Hen-Mang)",
-		artist:"周杰倫",
-		src:"music/周杰倫【牛仔很忙 官方完整MV】Jay Chou Cowboy On The Run MV (Niu-Zi-Hen-Mang).mp3"
-	},
-	{
-		name:"周杰倫【獻世 官方完整MV】Jay Chou concert in Hong Kong",
-		artist:"周杰倫",
-		src:"music/周杰倫【獻世 官方完整MV】Jay Chou concert in Hong Kong.mp3"
-	},
-	{
-		name:"周杰倫【花海 官方完整MV】Jay Chou Floral Sea MV (Hua-Hai)",
-		artist:"周杰倫",
-		src:"music/周杰倫【花海 官方完整MV】Jay Chou Floral Sea MV (Hua-Hai).mp3"
-	},
-	{
-		name:"周杰倫【蛇舞 官方完整MV】Jay Chou Snake Dance MV (She-Wu)",
-		artist:"周杰倫",
-		src:"music/周杰倫【蛇舞 官方完整MV】Jay Chou Snake Dance MV (She-Wu).mp3"
-	},
-	{
-		name:"周杰倫【逆鱗 官方完整MV】Jay Chou Against MV (Ni-Lin)",
-		artist:"周杰倫",
-		src:"music/周杰倫【逆鱗 官方完整MV】Jay Chou Against MV (Ni-Lin).mp3"
-	},
-	{
-		name:"周杰倫【雙刀 官方完整MV】Jay Chou Double Blade MV (Shuang-Dao)",
-		artist:"周杰倫",
-		src:"music/周杰倫【雙刀 官方完整MV】Jay Chou Double Blade MV (Shuang-Dao).mp3"
-	},
-	{
-		name:"周杰倫【龍捲風 官方完整MV】Jay Chou Tornado MV (Long-Juan-Feng)",
-		artist:"周杰倫",
-		src:"music/周杰倫【龍捲風 官方完整MV】Jay Chou Tornado MV (Long-Juan-Feng).mp3"
-	}
+trackList = 
+[
+{name:"0001. 八三夭 - 想見你想見你想見你 (電視劇想見你片尾曲)",artist:"八三夭 ",src:"0001. 八三夭 - 想見你想見你想見你 (電視劇想見你片尾曲).mp3"},
+{name:"0002. G.E.M. 鄧紫棋 - 句號",artist:"G.E.M. 鄧紫棋 ",src:"0002. G.E.M. 鄧紫棋 - 句號.mp3"},
+{name:"0003. 阿冗 - 與我無關",artist:"阿冗 ",src:"0003. 阿冗 - 與我無關.mp3"},
+{name:"0004. 阿冗 - 你的答案",artist:"阿冗 ",src:"0004. 阿冗 - 你的答案.mp3"},
+{name:"0005. 夢然 - 少年",artist:"夢然 ",src:"0005. 夢然 - 少年.mp3"},
+{name:"0006. 盧廣仲 - 刻在我心底的名字 (電影刻在你心底的名字主題曲)",artist:"盧廣仲 ",src:"0006. 盧廣仲 - 刻在我心底的名字 (電影刻在你心底的名字主題曲).mp3"},
+{name:"0007. 瘦子E.SO - CHANGE",artist:"瘦子E.SO ",src:"0007. 瘦子E.SO - CHANGE.mp3"},
+{name:"0008. Tank 呂建忠 - 你的情歌(電影你的情歌主題曲)",artist:"Tank 呂建忠 ",src:"0008. Tank 呂建忠 - 你的情歌(電影你的情歌主題曲).mp3"},
+{name:"0009. G.E.M.鄧紫棋 - 透明",artist:"G.E.M.鄧紫棋 ",src:"0009. G.E.M.鄧紫棋 - 透明.mp3"},
+{name:"0010. G.E.M.鄧紫棋 - 很久以後",artist:"G.E.M.鄧紫棋 ",src:"0010. G.E.M.鄧紫棋 - 很久以後.mp3"},
+{name:"0011. 閻奕格 - 愛上現在的我 (feat. 高爾宣 OSN)",artist:"閻奕格 ",src:"0011. 閻奕格 - 愛上現在的我 (feat. 高爾宣 OSN).mp3"},
+{name:"0012. 瘦子E.SO - 她沒在看我",artist:"瘦子E.SO ",src:"0012. 瘦子E.SO - 她沒在看我.mp3"},
+{name:"0013. G.E.M.鄧紫棋 - 摩天動物園",artist:"G.E.M.鄧紫棋 ",src:"0013. G.E.M.鄧紫棋 - 摩天動物園.mp3"},
+{name:"0014. 任然 - 飛鳥和蟬",artist:"任然 ",src:"0014. 任然 - 飛鳥和蟬.mp3"},
+{name:"0015. 周興哲 - 小時候的我們",artist:"周興哲 ",src:"0015. 周興哲 - 小時候的我們.mp3"},
+{name:"0016. 婁峻碩 - COLORFUL",artist:"婁峻碩 ",src:"0016. 婁峻碩 - COLORFUL.mp3"},
+{name:"0017. G.E.M.鄧紫棋 - 別勉強 (with 周興哲)",artist:"G.E.M.鄧紫棋 ",src:"0017. G.E.M.鄧紫棋 - 別勉強 (with 周興哲).mp3"},
+{name:"0018. 瘦子E.SO - 太陽",artist:"瘦子E.SO ",src:"0018. 瘦子E.SO - 太陽.mp3"},
+{name:"0019. 周興哲 - 我很快樂",artist:"周興哲 ",src:"0019. 周興哲 - 我很快樂.mp3"},
+{name:"0020. 陳忻玥 - 炙愛 (女聲版)",artist:"陳忻玥 ",src:"0020. 陳忻玥 - 炙愛 (女聲版).mp3"},
+{name:"0021. 周杰倫 - Mojito",artist:"周杰倫 ",src:"0021. 周杰倫 - Mojito.mp3"},
+{name:"0022. 棉子 - 勇氣",artist:"棉子 ",src:"0022. 棉子 - 勇氣.mp3"},
+{name:"0023. 李榮浩 - 麻雀",artist:"李榮浩 ",src:"0023. 李榮浩 - 麻雀.mp3"},
+{name:"0024. 五月天 - 溫柔 #MaydayBlue20th (feat. 孫燕姿)",artist:"五月天 ",src:"0024. 五月天 - 溫柔 #MaydayBlue20th (feat. 孫燕姿).mp3"},
+{name:"0025. 高爾宣 OSN - No Name",artist:"高爾宣 OSN ",src:"0025. 高爾宣 OSN - No Name.mp3"},
+{name:"0026. 瘦子E.SO - WAIT",artist:"瘦子E.SO ",src:"0026. 瘦子E.SO - WAIT.mp3"},
+{name:"0027. 蕭亞軒 - 當你和心跳一起出現",artist:"蕭亞軒 ",src:"0027. 蕭亞軒 - 當你和心跳一起出現.mp3"},
+{name:"0028. 邱鋒澤&陳零九&四堅情&黃偉晉&小賴 - 兵變",artist:"邱鋒澤&陳零九&四堅情&黃偉晉&小賴 ",src:"0028. 邱鋒澤&陳零九&四堅情&黃偉晉&小賴 - 兵變.mp3"},
+{name:"0029. 吳卓源 - 全世界的朋友都讓我失望",artist:"吳卓源 ",src:"0029. 吳卓源 - 全世界的朋友都讓我失望.mp3"},
+{name:"0030. 黃鴻升 - 扛得住 (feat. 柯有倫 & 竇智孔)",artist:"黃鴻升 ",src:"0030. 黃鴻升 - 扛得住 (feat. 柯有倫 & 竇智孔).mp3"},
+{name:"0031. 高爾宣OSN  - So Bad",artist:"高爾宣OSN  ",src:"0031. 高爾宣OSN  - So Bad.mp3"},
+{name:"0032. 井朧 - 丟了你",artist:"井朧 ",src:"0032. 井朧 - 丟了你.mp3"},
+{name:"0033. 周杰倫 - 我是如此相信",artist:"周杰倫 ",src:"0033. 周杰倫 - 我是如此相信.mp3"},
+{name:"0034. 周興哲 - 受夠",artist:"周興哲 ",src:"0034. 周興哲 - 受夠.mp3"},
+{name:"0035. 魏如萱 - 彼個所在",artist:"魏如萱 ",src:"0035. 魏如萱 - 彼個所在.mp3"},
+{name:"0036. 瘦子E.SO - 稱讚她的美",artist:"瘦子E.SO ",src:"0036. 瘦子E.SO - 稱讚她的美.mp3"},
+{name:"0037. 田馥甄 - 懸日",artist:"田馥甄 ",src:"0037. 田馥甄 - 懸日.mp3"},
+{name:"0038. 四堅情WOLF (邱鋒澤、陳零九、黃偉晉、賴晏駒) - 速食愛情",artist:"四堅情WOLF (邱鋒澤、陳零九、黃偉晉、賴晏駒) ",src:"0038. 四堅情WOLF (邱鋒澤、陳零九、黃偉晉、賴晏駒) - 速食愛情.mp3"},
+{name:"0039. G.E.M. 鄧紫棋 - 好想好想妳",artist:"G.E.M. 鄧紫棋 ",src:"0039. G.E.M. 鄧紫棋 - 好想好想妳.mp3"},
+{name:"0040. 瘦子E.SO - Something I Don't Need",artist:"瘦子E.SO ",src:"0040. 瘦子E.SO - Something I Don't Need.mp3"},
+{name:"0041. 胡66 - 後來遇見他",artist:"胡66 ",src:"0041. 胡66 - 後來遇見他.mp3"},
+{name:"0042. 王艷薇 - 離開我的依賴",artist:"王艷薇 ",src:"0042. 王艷薇 - 離開我的依賴.mp3"},
+{name:"0043. 蕭敬騰 - 猴籠",artist:"蕭敬騰 ",src:"0043. 蕭敬騰 - 猴籠.mp3"},
+{name:"0044. 陳零九 - 再也不要 (feat. 韋禮安)",artist:"陳零九 ",src:"0044. 陳零九 - 再也不要 (feat. 韋禮安).mp3"},
+{name:"0045. 瘦子E.SO - I Wish I Was There",artist:"瘦子E.SO ",src:"0045. 瘦子E.SO - I Wish I Was There.mp3"},
+{name:"0046. 八三夭 - 馬子狗 (feat. 玖壹壹)",artist:"八三夭 ",src:"0046. 八三夭 - 馬子狗 (feat. 玖壹壹).mp3"},
+{name:"0047. 小宇-宋念宇 - 默念你",artist:"小宇",src:"0047. 小宇-宋念宇 - 默念你.mp3"},
+{name:"0048. 瘦子E.SO - 伯父",artist:"瘦子E.SO ",src:"0048. 瘦子E.SO - 伯父.mp3"},
+{name:"0049. J.Sheon - 輸情歌 (Ballad)",artist:"J.Sheon ",src:"0049. J.Sheon - 輸情歌 (Ballad).mp3"},
+{name:"0050. 梁靜茹&艾怡良 - 飄洋過海來看你",artist:"梁靜茹&艾怡良 ",src:"0050. 梁靜茹&艾怡良 - 飄洋過海來看你.mp3"},
+{name:"0051. 陳零九 - 看見妳的聲音 (電視劇想見你插曲)",artist:"陳零九 ",src:"0051. 陳零九 - 看見妳的聲音 (電視劇想見你插曲).mp3"},
+{name:"0052. 吳卓源 - 七十億分之一加一 ((1  7(10^9)) + 1)(feat. 婁峻碩)",artist:"吳卓源 ",src:"0052. 吳卓源 - 七十億分之一加一 ((1  7(10^9)) + 1)(feat. 婁峻碩).mp3"},
+{name:"0053. G.E.M. 鄧紫棋 - 依然睡公主",artist:"G.E.M. 鄧紫棋 ",src:"0053. G.E.M. 鄧紫棋 - 依然睡公主.mp3"},
+{name:"0054. 華晨宇 - 好想愛這個世界啊",artist:"華晨宇 ",src:"0054. 華晨宇 - 好想愛這個世界啊.mp3"},
+{name:"0055. 閻奕格 - 少了一件牛仔褲 - 三立華劇跟鯊魚接吻片尾曲",artist:"閻奕格 ",src:"0055. 閻奕格 - 少了一件牛仔褲 - 三立華劇跟鯊魚接吻片尾曲.mp3"},
+{name:"0056. G.E.M. 鄧紫棋 - 差不多姑娘",artist:"G.E.M. 鄧紫棋 ",src:"0056. G.E.M. 鄧紫棋 - 差不多姑娘.mp3"},
+{name:"0057. 黃宣 - 一天(電視劇《想見你》插曲)",artist:"黃宣 ",src:"0057. 黃宣 - 一天(電視劇《想見你》插曲).mp3"},
+{name:"0058. 林俊傑 - 交換餘生",artist:"林俊傑 ",src:"0058. 林俊傑 - 交換餘生.mp3"},
+{name:"0059. 瘦子E.SO - Don't Worry About Me",artist:"瘦子E.SO ",src:"0059. 瘦子E.SO - Don't Worry About Me.mp3"},
+{name:"0060. 李佳歡 - 如果的事 (feat. 許維芳)",artist:"李佳歡 ",src:"0060. 李佳歡 - 如果的事 (feat. 許維芳).mp3"},
+{name:"0061. 瘦子E.SO - Follow You",artist:"瘦子E.SO ",src:"0061. 瘦子E.SO - Follow You.mp3"},
+{name:"0062. 楊丞琳 - 刪拾",artist:"楊丞琳 ",src:"0062. 楊丞琳 - 刪拾.mp3"},
+{name:"0063. 文慧如 - 全放空 (feat. 鼓鼓 呂思緯)",artist:"文慧如 ",src:"0063. 文慧如 - 全放空 (feat. 鼓鼓 呂思緯).mp3"},
+{name:"0064. 蔡黃汝 - 迷人的危險",artist:"蔡黃汝 ",src:"0064. 蔡黃汝 - 迷人的危險.mp3"},
+{name:"0065. 李千那 - 不敢聽的歌",artist:"李千那 ",src:"0065. 李千那 - 不敢聽的歌.mp3"},
+{name:"0066. 徐若瑄 - 別人的 (電影孤味片尾曲)",artist:"徐若瑄 ",src:"0066. 徐若瑄 - 別人的 (電影孤味片尾曲).mp3"},
+{name:"0067. G.E.M. 鄧紫棋 - Fly Away",artist:"G.E.M. 鄧紫棋 ",src:"0067. G.E.M. 鄧紫棋 - Fly Away.mp3"},
+{name:"0068. 田馥甄 - 皆可",artist:"田馥甄 ",src:"0068. 田馥甄 - 皆可.mp3"},
+{name:"0069. 任家萱 - 心如止水",artist:"任家萱 ",src:"0069. 任家萱 - 心如止水.mp3"},
+{name:"0070. 滅火器 (Fire EX.) - 自信勇敢咱的名",artist:"滅火器 (Fire EX.) ",src:"0070. 滅火器 (Fire EX.) - 自信勇敢咱的名.mp3"},
+{name:"0071. 鄭心慈 - 幸福藏在哪裡(天堂的微笑片頭曲)",artist:"鄭心慈 ",src:"0071. 鄭心慈 - 幸福藏在哪裡(天堂的微笑片頭曲).mp3"},
+{name:"0072. 派偉俊 - Don’t Wanna Lie (feat. 8lak, Hosea)",artist:"派偉俊 ",src:"0072. 派偉俊 - Don’t Wanna Lie (feat. 8lak, Hosea).mp3"},
+{name:"0073. 吳卓源 - Take Me Back",artist:"吳卓源 ",src:"0073. 吳卓源 - Take Me Back.mp3"},
+{name:"0074. 田馥甄 - 無人知曉",artist:"田馥甄 ",src:"0074. 田馥甄 - 無人知曉.mp3"},
+{name:"0075. 楊丞琳 - 像是一顆星星",artist:"楊丞琳 ",src:"0075. 楊丞琳 - 像是一顆星星.mp3"},
+{name:"0076. TRASH - 希望你回來",artist:"TRASH ",src:"0076. TRASH - 希望你回來.mp3"},
+{name:"0077. 陳忻玥 - 時間的輪",artist:"陳忻玥 ",src:"0077. 陳忻玥 - 時間的輪.mp3"},
+{name:"0078. 吳卓源 - Things Things Things",artist:"吳卓源 ",src:"0078. 吳卓源 - Things Things Things.mp3"},
+{name:"0079. 田馥甄 - 諷刺的情書",artist:"田馥甄 ",src:"0079. 田馥甄 - 諷刺的情書.mp3"},
+{name:"0080. 陳忻玥  - Am I Who I Am",artist:"陳忻玥  ",src:"0080. 陳忻玥  - Am I Who I Am.mp3"},
+{name:"0081. 李友廷 - 偽裝 (feat. 吳霏&楊碧琪)",artist:"李友廷 ",src:"0081. 李友廷 - 偽裝 (feat. 吳霏&楊碧琪).mp3"},
+{name:"0082. 許光漢 - 別再想見我",artist:"許光漢 ",src:"0082. 許光漢 - 別再想見我.mp3"},
+{name:"0083. 動力火車 - 永遠不再 (做工的人戲劇片尾曲)",artist:"動力火車 ",src:"0083. 動力火車 - 永遠不再 (做工的人戲劇片尾曲).mp3"},
+{name:"0084. 李榮浩 - 等著等著就老了",artist:"李榮浩 ",src:"0084. 李榮浩 - 等著等著就老了.mp3"},
+{name:"0085. 八三夭 - 有一種悲傷叫蠢蛋 (feat. A-Lin)",artist:"八三夭 ",src:"0085. 八三夭 - 有一種悲傷叫蠢蛋 (feat. A-Lin).mp3"},
+{name:"0086. 老莫 ILL MO - 女士優先 (feat.壞特)",artist:"老莫 ILL MO ",src:"0086. 老莫 ILL MO - 女士優先 (feat.壞特).mp3"},
+{name:"0087. 吳卓源 - Better (feat. 陳芳語)",artist:"吳卓源 ",src:"0087. 吳卓源 - Better (feat. 陳芳語).mp3"},
+{name:"0088. IVAN 艾文 - Be Alright (feat. 李艾薇 Ivy Lee)",artist:"IVAN 艾文 ",src:"0088. IVAN 艾文 - Be Alright (feat. 李艾薇 Ivy Lee).mp3"},
+{name:"0089. 楊丞琳 - 節日快樂",artist:"楊丞琳 ",src:"0089. 楊丞琳 - 節日快樂.mp3"},
+{name:"0090. 茄子蛋 - 我的未來不是夢",artist:"茄子蛋 ",src:"0090. 茄子蛋 - 我的未來不是夢.mp3"},
+{name:"0091. 梁文音 - 你存在",artist:"梁文音 ",src:"0091. 梁文音 - 你存在.mp3"},
+{name:"0092. 采子 - 前任 (feat. 黃偉晉)",artist:"采子 ",src:"0092. 采子 - 前任 (feat. 黃偉晉).mp3"},
+{name:"0093. 邱振哲 - 太陽 (堅持守護希望版)",artist:"邱振哲 ",src:"0093. 邱振哲 - 太陽 (堅持守護希望版).mp3"},
+{name:"0094. 張語噥 - 不在乎",artist:"張語噥 ",src:"0094. 張語噥 - 不在乎.mp3"},
+{name:"0095. 陳芳語 - 逆光",artist:"陳芳語 ",src:"0095. 陳芳語 - 逆光.mp3"},
+{name:"0096. CHING G SQUAD, 高爾宣 OSN, 婁峻碩, ChrisFlow, RED芮德, Julia Wu, Karencici, Pi Hai Ryan - Better Than Love",artist:"CHING G SQUAD, 高爾宣 OSN, 婁峻碩, ChrisFlow, RED芮德, Julia Wu, Karencici, Pi Hai Ryan ",src:"0096. CHING G SQUAD, 高爾宣 OSN, 婁峻碩, ChrisFlow, RED芮德, Julia Wu, Karencici, Pi Hai Ryan - Better Than Love.mp3"},
+{name:"0097. 韋禮安 - 雙棲動物",artist:"韋禮安 ",src:"0097. 韋禮安 - 雙棲動物.mp3"},
+{name:"0098. 玖壹壹 - LOCAL",artist:"玖壹壹 ",src:"0098. 玖壹壹 - LOCAL.mp3"},
+{name:"0099. 孫盛希 - 逃 (電視劇想見你插曲)",artist:"孫盛希 ",src:"0099. 孫盛希 - 逃 (電視劇想見你插曲).mp3"},
+{name:"0100. 茄子蛋 - 恰似你的溫柔",artist:"茄子蛋 ",src:"0100. 茄子蛋 - 恰似你的溫柔.mp3"}
 ];
