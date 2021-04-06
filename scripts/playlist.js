@@ -100,4 +100,5 @@ trackList =
 {name:"0098. 玖壹壹 - LOCAL",artist:"玖壹壹 ",src:"music/0098. 玖壹壹 - LOCAL.mp3"},
 {name:"0099. 孫盛希 - 逃 (電視劇想見你插曲)",artist:"孫盛希 ",src:"music/0099. 孫盛希 - 逃 (電視劇想見你插曲).mp3"},
 {name:"0100. 茄子蛋 - 恰似你的溫柔",artist:"茄子蛋 ",src:"music/0100. 茄子蛋 - 恰似你的溫柔.mp3"}
+{name:"0101. 茄子蛋EggPlantEgg - 愛情你比我想的閣較偉大 (Official Music Video﻿)《當男人戀愛時》電影主題曲",artist:"茄子蛋 ",src:"music/0101. 茄子蛋EggPlantEgg - 愛情你比我想的閣較偉大 (Official Music Video﻿)《當男人戀愛時》電影主題曲.mp3"}
 ];
