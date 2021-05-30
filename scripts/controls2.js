@@ -76,6 +76,7 @@ document.getElementById("slideContainer").innerHTML = showSongList();
 // Random Button
 randomBtn.addEventListener("click",function(){
   brepeat = false;
+  repeatBtn.firstChild.src = brepeat_0_ICON;
   shuffle(playlist.list)
   document.getElementById("slideContainer").innerHTML = showSongList();
   loadNewTrack(playlist.getActive().src);
@@ -84,6 +85,7 @@ randomBtn.addEventListener("click",function(){
 //Next Button
 nextBtn.addEventListener("click",function(){
   brepeat = false;
+  repeatBtn.firstChild.src = brepeat_0_ICON;
   playlist.next();
   loadNewTrack(playlist.getActive().src);
 });
@@ -91,6 +93,7 @@ nextBtn.addEventListener("click",function(){
 //Previous button
 previousBtn.addEventListener("click",function(){
   brepeat = false;
+  repeatBtn.firstChild.src = brepeat_0_ICON;
   playlist.previous();
   loadNewTrack(playlist.getActive().src);
 });
