@@ -7,14 +7,17 @@ var randomBtn = document.getElementById("randomBtn");
 var volumeSlider = document.getElementById("volumeSlider");
 var nextBtn = document.getElementById("nextBtn");
 var previousBtn = document.getElementById("previousBtn");
+var repeatBtn = document.getElementById("repeatBtn");
 var titleText = document.getElementById("titleText");
 var albumText = document.getElementById("albumText");
 var artistText = document.getElementById("artistText");
 var timeText = document.getElementById("timeText");
 var log = document.getElementById("log");
-
+var brepeat = new Boolean();
 var PLAY_ICON = "icons/32/play-32.png";
 var PAUSE_ICON = "icons/32/pause-32.png";
+var brepeat_0_ICON = "icons/32/repeat-32_false.png";
+var brepeat_1_ICON = "icons/32/repeat-32_true.png";
 
 // ================ Add properties and methods to the playlist object
 var playlist = {};
@@ -40,6 +43,7 @@ playlist.previous = function() {
 playlist.getActive = function() {
     return this.list[this.activeTrack];
 }
+
 
   
 // ===================== On load set the default values to the audio element 
@@ -71,6 +75,7 @@ document.getElementById("slideContainer").innerHTML = showSongList();
 
 // Random Button
 randomBtn.addEventListener("click",function(){
+  brepeat = false;
   shuffle(playlist.list)
   document.getElementById("slideContainer").innerHTML = showSongList();
   loadNewTrack(playlist.getActive().src);
@@ -78,15 +83,32 @@ randomBtn.addEventListener("click",function(){
 
 //Next Button
 nextBtn.addEventListener("click",function(){
+  brepeat = false;
   playlist.next();
   loadNewTrack(playlist.getActive().src);
 });
 
 //Previous button
 previousBtn.addEventListener("click",function(){
+  brepeat = false;
   playlist.previous();
   loadNewTrack(playlist.getActive().src);
 });
+
+//Repeat button
+repeatBtn.addEventListener("click",function(){
+	if (brepeat == false)
+	{
+		repeatBtn.firstChild.src = brepeat_1_ICON;
+		brepeat = true;
+	}
+	else
+	{
+		repeatBtn.firstChild.src = brepeat_0_ICON;
+		brepeat = false;
+	};
+});
+
 
 audio.addEventListener("play",function(){playBtn.firstChild.src = PAUSE_ICON;},false);
 audio.addEventListener("pause",function(){playBtn.firstChild.src = PLAY_ICON;},false);
@@ -126,8 +148,11 @@ timeSlider.addEventListener("change", function(){
 
 // On ended
 audio.addEventListener("ended",function(){
-  playlist.next();
-  loadNewTrack(playlist.getActive().src);
+	if(brepeat == false)
+	{
+		playlist.next();
+	}
+	loadNewTrack(playlist.getActive().src);
 });
 
 /**
