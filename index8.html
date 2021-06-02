@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>七八年級經典歌曲</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <a href = "index2.html">輕音樂</a>
+  <a href = "index3.html">英文歌</a>
+  <br> 
+  <a href = "index5.html">KKBOX_W120_華語Top50</a>
+  <a href = "index6.html">KKBOX_W121_外語Top50</a>
+  <br> 
+  <a href = "index7.html">2020KKBOX華語年度百大單曲(20191201-20201231)</a>
+  <div id="container">
+    <audio id="audio">
+      <source id="sourceMP3" src="" type="audio/ogg">
+    </audio>
+
+    <div id="wrapper">
+      <!-- Track information-->
+      <div id="trackInfo">
+        <div id="titleText">.</div>
+        <div id="albumText">.</div>
+        <div id="artistText">.</div>
+      </div>
+
+      <div id="timeInfo">
+        <div><div id="timeBar"><div class="filler"></div></div></div>
+        <div id="timeText"></div>
+      </div>
+
+      <!-- Controls -->
+      <div id="controls">
+        <div class="button" id="playBtn"><img src="icons/32/play-32.png"></div>
+        <div class="button" id="randomBtn"><img src="icons/32/random-32.png"></div>
+        <div class="button" id="previousBtn"><img src="icons/32/rewind-32.png"></div>
+        <div class="button" id="nextBtn"><img src="icons/32/forward-32.png"></div>
+	<div class="button" id="repeatBtn"><img src="icons/32/repeat-32_false.png"></div>
+        <div id="volumeIcon"><img src="icons/32/volume-32.png"></div>
+        <div><div id="volumeSlider"><div class="filler"></div></div></div>
+      </div>
+  </div>
+</div>
+  <div id = "slideContainer"></br></div>
+
+  <script src="scripts/sliderfy.js"></script>
+  <script src="scripts/playlist8.js"></script>
+  <script src="scripts/controls2.js"></script>
+
+</body>
+
+</html>
+
